@@ -31,7 +31,7 @@ To add a package dependency to your Xcode project, select File > Swift Packages 
 
 | Version | Dated | Description |
 | :---- | :---- | :---- |
-| `2.0.2 `| 05 Feb 2025 | - Improvements and bug fixes.|
+| `2.0.3 `| 05 Feb 2025 | - Improvements and bug fixes.|
 | `2.0.0 `| 02 Feb 2025 | - Authentication and authorization mechanisms have been revised.|
 | --- | --- | --- |
 | `1.0.16 `| 02 Feb 2025 | - Improvements and Bug Fixes.|
