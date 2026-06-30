@@ -31,6 +31,9 @@ To add a package dependency to your Xcode project, select File > Swift Packages 
 
 | Version | Dated | Description |
 | :---- | :---- | :---- |
+| `2.1.3 `| 30 Jun 2026 | -  Fixed a potential deadlock in `MapplsAccountManager` and `MapplsSharedInfoManager` when sharedManager was first accessed from a background thread during initialization. |
+| `2.1.2 `| 31 Mar 2026 | - Added support for custom `i.conf` and `i.olf` file paths. |
+| `2.1.1 `| 14 Jan 2026 | - Fixed an issue affecting authentication when a Team ID is required. |
 | `2.0.9 `| 13 Jan 2026 | - Renamed commonly used public classes to avoid conflicts with other public SDKs. <br> Added support for xcode 16.4 and above|
 | `2.0.8 `| 12 Jan 2026 | - Renamed commonly used public classes to avoid conflicts with other public SDKs. <br> Added support for xcode 16.4 and above|
 | `2.0.7 `| 12 Jan 2026 | - Renamed commonly used public classes to avoid conflicts with other public SDKs.|
