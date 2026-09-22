@@ -5,7 +5,7 @@
 ## [Introduction](#Introduction)
 
 This SDK provides core features for authentication and access for various Mappls's SDKs in a very simple way.
-The preferred way of integrating the SDK can be found in the  below. 
+The preferred way of integrating the SDK can be found below.
 
 ## [Authentication](#Authentication)
 
@@ -13,42 +13,23 @@ To initialize and authenticate any **` Mappls SDK `**, you must include **` i.co
 
 You can download the required files from the **[Auth Console](http://auth.mappls.com/console/)**
 
-### How to create an app on Mappls Console
-![Mappls Console - How to create apps](./images/TestApp_iOS_1.gif)
-
-
-### How to download config files from App from Console
-![Mappls Console - How to create apps](./images/TestApp_iOS_2.gif)
-
-
 
 ## [Installation](#Installation)
 
 To add a package dependency to your Xcode project, select File > Swift Packages > Add Package Dependency and enter its repository URL. See [Adding Package Dependencies to Your App](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app).
 
 
-## [Version History](#Version-History)
+## 📦 Version History
 
-| Version | Dated | Description |
-| :---- | :---- | :---- |
-| `2.1.3 `| 30 Jun 2026 | -  Fixed a potential deadlock in `MapplsAccountManager` and `MapplsSharedInfoManager` when sharedManager was first accessed from a background thread during initialization. |
-| `2.1.2 `| 31 Mar 2026 | - Added support for custom `i.conf` and `i.olf` file paths. |
-| `2.1.1 `| 14 Jan 2026 | - Fixed an issue affecting authentication when a Team ID is required. |
-| `2.0.9 `| 13 Jan 2026 | - Renamed commonly used public classes to avoid conflicts with other public SDKs. <br> Added support for xcode 16.4 and above|
-| `2.0.8 `| 12 Jan 2026 | - Renamed commonly used public classes to avoid conflicts with other public SDKs. <br> Added support for xcode 16.4 and above|
-| `2.0.7 `| 12 Jan 2026 | - Renamed commonly used public classes to avoid conflicts with other public SDKs.|
-| `2.0.6 `| 16 Oct 2025 | - Improvements and bug fixes.|
-| `2.0.5 `| 23 July 2025 | - Improvements and bug fixes.|
-| `2.0.4 `| 05 Feb 2025 | - Improvements and bug fixes.|
-| `2.0.0 `| 02 Feb 2025 | - Authentication and authorization mechanisms have been revised.|
-| --- | --- | --- |
-| `1.0.16 `| 02 Feb 2025 | - Improvements and Bug Fixes.|
-| `1.0.15 `| 17 Dec 2024 | - Improvements.|
-| `1.0.14 `| 13 Nov 2024 | - Added provision to set language in account manager to speak and visualize routing instructions.|
+> **Latest release · `2.1.4`** — 22 Sep 2026 · See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-<br><br><br>
+| Version | Date | Highlights |
+| :---: | :---: | :--- |
+| **`2.1.4`** | 22 Sep 2026 | The unique device identifier is now resolved once and reused. |
+| **`2.1.3`** | 30 Jun 2026 | Fixed a potential deadlock in `MapplsAccountManager` and `MapplsSharedInfoManager` when `sharedManager` was first accessed from a background thread during initialization. |
+| **`2.1.2`** | 02 Apr 2026 | Added support for `conf` and `olf` file paths during initialization. |
+| **`2.0.0`** | 02 Feb 2025 | Revised authentication and authorization mechanisms; minimum iOS deployment target changed to 13.0. |
 
-## Our many happy customers:
 
 ![](https://www.mapmyindia.com/api/img/logos1/PhonePe.png)![](https://www.mapmyindia.com/api/img/logos1/Arya-Omnitalk.png)![](https://www.mapmyindia.com/api/img/logos1/delhivery.png)![](https://www.mapmyindia.com/api/img/logos1/hdfc.png)![](https://www.mapmyindia.com/api/img/logos1/TVS.png)![](https://www.mapmyindia.com/api/img/logos1/Paytm.png)![](https://www.mapmyindia.com/api/img/logos1/FastTrackz.png)![](https://www.mapmyindia.com/api/img/logos1/ICICI-Pru.png)![](https://www.mapmyindia.com/api/img/logos1/LeanBox.png)![](https://www.mapmyindia.com/api/img/logos1/MFS.png)![](https://www.mapmyindia.com/api/img/logos1/TTSL.png)![](https://www.mapmyindia.com/api/img/logos1/Novire.png)![](https://www.mapmyindia.com/api/img/logos1/OLX.png)![](https://www.mapmyindia.com/api/img/logos1/sun-telematics.png)![](https://www.mapmyindia.com/api/img/logos1/Sensel.png)![](https://www.mapmyindia.com/api/img/logos1/TATA-MOTORS.png)![](https://www.mapmyindia.com/api/img/logos1/Wipro.png)![](https://www.mapmyindia.com/api/img/logos1/Xamarin.png)
 
