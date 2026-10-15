@@ -1,5 +1,16 @@
 # Changes to the MapplsAPICore SDK for iOS
 
+## 2.1.5 - 22 Sep, 2026
+
+### Added
+
+- Added NTP-based time synchronization. The SDK now obtains trusted wall-clock time from an NTP server at initialization using a lightweight, dependency-free SNTP client, making the authentication timestamp resilient to an incorrect device clock.
+- The time source is re-synchronized automatically when the user manually changes the device clock.
+
+### Changed
+
+- Server time is now resolved from the NTP offset first, falling back to the API response `Date` header and then raw device time when NTP is unavailable (for example when the network blocks UDP).
+
 ## 2.1.4 - 22 Sep, 2026
 
 ### Fixed

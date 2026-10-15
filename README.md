@@ -21,10 +21,11 @@ To add a package dependency to your Xcode project, select File > Swift Packages 
 
 ## 📦 Version History
 
-> **Latest release · `2.1.4`** — 22 Sep 2026 · See [CHANGELOG.md](CHANGELOG.md) for full release notes.
+> **Latest release · `2.1.5`** — 22 Sep 2026 · See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 | Version | Date | Highlights |
 | :---: | :---: | :--- |
+| **`2.1.5`** | 22 Sep 2026 | Added NTP-based time synchronization for the authentication timestamp, with the API `Date` header and device time as fallbacks. |
 | **`2.1.4`** | 22 Sep 2026 | The unique device identifier is now resolved once and reused. |
 | **`2.1.3`** | 30 Jun 2026 | Fixed a potential deadlock in `MapplsAccountManager` and `MapplsSharedInfoManager` when `sharedManager` was first accessed from a background thread during initialization. |
 | **`2.1.2`** | 02 Apr 2026 | Added support for `conf` and `olf` file paths during initialization. |
