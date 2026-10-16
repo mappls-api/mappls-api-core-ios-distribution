@@ -1,5 +1,11 @@
 # Changes to the MapplsAPICore SDK for iOS
 
+## 2.1.6 - 22 Sep, 2026
+
+### Changed
+
+- Lowered the minimum iOS deployment target to iOS 13.0.
+
 ## 2.1.5 - 22 Sep, 2026
 
 ### Added
